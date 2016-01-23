@@ -10,7 +10,7 @@ def first_n_primes(n)
   prime_array ||= []
 
   prime = Prime.new
-  for num in (1..n)
+  n.times do
     prime_array.push(prime.next)
   end
   prime_array
