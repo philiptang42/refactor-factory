@@ -11,7 +11,7 @@ def first_n_primes(n)
 
   prime = Prime.new
   n.times do
-    prime_array.push(prime.next)
+    prime_array << prime.next
   end
   prime_array
 end
