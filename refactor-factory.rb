@@ -16,4 +16,5 @@ def first_n_primes(n)
   prime_array
 end
 
+
 first_n_primes(10)
